@@ -1,4 +1,4 @@
-var numberOfFilms = promt ("Сколько фильмов вы посмотрели", '');
+var numberOfFilms = prompt ("Сколько фильмов вы посмотрели", '');
 
 var personalMovieDB = {
     count : numberOfFilms,
@@ -13,5 +13,8 @@ const a = prompt ('Один из последних просмотренных �
       c = prompt ('Один из последних просмотренных фильмов', ''),
       d = prompt  ('На сколько оцените его', '');
 
+personalMovieDB.movies[a] = b;
+personalMovieDB.movies[c] = d;
 
+console.log (personalMovieDB);
 
